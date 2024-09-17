@@ -1,0 +1,249 @@
+* {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 91, 126);
+    text-align: center;
+    color: white;
+
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(65, 91, 126);
+    font-family: "Spectral", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#burger-menu {
+    display: none;
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    margin: 10px;
+}
+
+#burger-menu img {
+    width: 50px;
+}
+
+h1  {
+    display: flex;
+
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#nameText {
+    font-size: 1.8em;
+}
+
+footer {
+    background-color: black;
+    padding: 1px 0px 15px 0px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 12.5%;
+    font-size: small;
+}
+
+nav a {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(202, 199, 10);
+    color: white;
+}
+
+nav :hover {
+    color: rgb(15, 108, 161);
+}
+
+#drop-down {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 8px 0px;
+}
+
+#drop-down a {
+    display: block;
+    font-size: 1.5em;
+    padding: 2px;
+}
+
+main {
+    padding: 2%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    max-width: 10000px;
+}
+
+.card {
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+#location {
+    color: black;
+    border-bottom: 1px solid grey;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+.card-title {
+    background-color: rgb(7, 61, 10);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: black;
+}
+
+li::marker {
+    color: rgb(201, 45, 71);
+}
+
+#img-me {
+    width: 20%;
+    margin: 20px;
+}
+
+#section2 {
+    justify-content: center;
+}
+
+#tree-img {
+    max-width: 80%;
+    margin-top: 10px;
+}
+
+#section2 p {
+    font-style: italic;
+    font-size: small;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#section3 {
+    grid-column: span 3;
+}
+
+#filter-buttons-nav {
+    background-color: white;
+    justify-content: center;
+    gap: 1%;
+}
+
+.filter-button {
+    margin: 8px 0px;
+    width: 100px;
+
+    background-color: black;
+    color: white;
+    font-weight: 540;
+    border-radius: 5px;
+}
+
+#class-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#img-flag {
+    max-width: 75px;
+    margin-left: 20px;
+}
+
+#dev-links{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#footer-sec {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#lastModified {
+    color: rgb(231, 172, 219);
+    font-size: small;
+}
+
+#drop-down {
+    display: none; /* Initially hidden */
+}
+
+#drop-down.show {
+    display: block; /* Shown when the 'show' class is added */
+}
+
+#courses-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.course {
+    color: black;
+    background-color: lightgray;
+    border-color: gray;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.completed {
+    color: white;
+    background-color: rgb(201, 45, 71);
+}
+
+@media screen and (max-width: 575px) {
+    #burger-menu {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main {
+        display: block;
+        grid-template-columns: 1fr;
+
+    }
+
+    .card {
+        border: 1px solid rgb(219, 219, 219);
+        margin: 10px;
+    }
+}
