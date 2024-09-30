@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Carlos da Silva",
+      "address": "Rua do Amparo, 123, Olinda - PE",
+      "phone": "+55 81 99999-1234",
+      "website": "https://carlosartesolinda.com",
+      "image": "https://images.unsplash.com/photo-1603415526960-f97c45c36c8f",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Maria Oliveira",
+      "address": "Avenida Sigismundo Gonçalves, 345, Olinda - PE",
+      "phone": "+55 81 99888-2345",
+      "website": "https://marialivraria.com",
+      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+      "membershipLevel": 1
+    },
+    {
+      "name": "João Santos",
+      "address": "Rua 15 de Novembro, 456, Olinda - PE",
+      "phone": "+55 81 99777-3456",
+      "website": "https://joaoprodutosolinda.com",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Ana Beatriz Lima",
+      "address": "Rua Prudente de Morais, 567, Olinda - PE",
+      "phone": "+55 81 99666-4567",
+      "website": "https://anabiju.com",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Pedro Henrique Souza",
+      "address": "Rua Bernardo Vieira de Melo, 789, Olinda - PE",
+      "phone": "+55 81 99555-5678",
+      "website": "https://pedrolaticiniosolinda.com",
+      "image": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f",
+      "membershipLevel": 1
+    },
+    {
+      "name": "Fernanda Alves",
+      "address": "Avenida Presidente Kennedy, 987, Olinda - PE",
+      "phone": "+55 81 99444-6789",
+      "website": "https://ferjoias.com",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Lucas Pereira",
+      "address": "Rua São Bento, 654, Olinda - PE",
+      "phone": "+55 81 99333-7890",
+      "website": "https://lucascultura.com",
+      "image": "https://images.unsplash.com/photo-1600573476176-041c6a5348f3",
+      "membershipLevel": 1
+    }
+  ]
+  
