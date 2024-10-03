@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="author" content="Luciano Vilete">
+   <meta name="description" content="This page by Luciano Vilete is one of many in the WDD 231 - Web Frontend Development I Course that is intended to teach me intermediate web frontend development skills.">
+
+   <meta property="og:title" content="Olinda Chamber of Commerce Directory">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://samcreviston.github.io/wdd231/chamber/directory.html">
+   <meta property="og:image" content="https://samcreviston.github.io/wdd231/chamber/images/olinda-city.jpg">
+
+   <link rel="stylesheet" href="styles/base.css">
+   <link rel="icon" href="images/favicon.ico">
+   <script src="scripts/index.js" defer></script>
+   <script src="scripts/get-date.js" defer></script>
+   
+   <title>Home - Chamber of Commerce - Olinda</title>
+</head>
+<body>
+   <header>
+       <button id="burger-menu"><img src="images/120px-Hamburger_icon_white.svg.png" alt="menu"></button>
+       <section id="title"><img src="images/olinda-city.jpg" alt="self portrait" id="img-commerce-sign"> 
+           <section id="header-title">
+               <h1 id="titleText">Olinda</h1>
+               <h2>Chamber of Commerce</h2>
+           </section>
+       </section>
+       <section>
+           <nav>
+               <a href="./index.html"><h1>Home</h1></a>
+               <a href="./directory.html"><h1>Directory</h1></a>
+               <a href="./join.html"><h1>Join</h1></a>
+               <a href="./discover.html"><h1>Discover</h1></a>
+           </nav>
+       </section>
+       
+   </header>
+   <main>
+        <section id="drop-down"></section>
+        <img id="hero-img" src="images/olinda-city.jpg" alt="city of Olinda">
+        <a href=""><h4>Join the Chamber of Commerce today!</h4></a>
+        <h1 id="main-title">Home</h1>
+
+        <section id="event-weather-section">
+            <section class="cards" id="events">
+                <h3 id="card-title">Events</h3>
+                <h4>Children's day party - 7/24</h4>
+                <p>Join with your kids and us for a lot of fun!</p>
+                <h4>Welcome to New Commerce Members - 8/14</h4>
+                <p>Stop by and welcome the new members of the chamber!</p>
+
+            </section>
+
+            <section class="cards" id="weather-card">
+                <h4>Weather</h4>
+                <p id="temperature"></p>
+                <img id="weather-icon" src="" alt="">
+                <p id="description"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+            </section>
+            <section class="cards" id="forecast-card">
+                <h4>forecast</h4>
+                <p id="day1"></p>
+                <p id="day2"></p>
+                <p id="day3"></p>
+            </section>
+        </section>
+
+        <section id="business-cards">
+        </section>
+
+   </main>
+
+   <footer>
+       <section id="footer-sec">
+           <p>
+               &copy;<span id="currentyear"></span>
+               - Luciano Vilete - Olinda
+           </p>
+           </section>
+           <p id="lastModified"></p>
+   </footer>
+
+</body>
+
+</html>
