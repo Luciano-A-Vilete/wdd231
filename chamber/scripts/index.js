@@ -4,7 +4,7 @@ const description =  document.querySelector("#description");
 const sunrise = document.querySelector("#sunrise");
 const sunset = document.querySelector("#sunset");
 
-const myKey = "f4c562fd7bdac3e7508459ec00325754"
+const myKey = "703101c998aa6f666451a80d29c6de2c"
 const lat = "-7.993447679752984"
 const lon = "-34.84326240660837"
 
