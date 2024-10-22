@@ -1,0 +1,262 @@
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+
+/* font reference: 
+
+.fira-sans-condensed-thin {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-condensed-extralight {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-condensed-light {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-condensed-regular {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-condensed-medium {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-condensed-semibold {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-condensed-bold {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-condensed-extrabold {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-condensed-black {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-condensed-thin-italic {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+... and so on for italic.
+
+
+.sorts-mill-goudy-regular {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sorts-mill-goudy-regular-italic {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Open+Sans:wght@300;500&display=swap&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #4d5057   ;
+  --secondary-color: #4e6e5d ;
+  --accent1-color: #4da167;
+  --accent2-color: 3bc14a;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Fira Sans Condensed", sans-serif;
+  --paragraph-font: 'Sorts Mill Goudy', serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #141414;  /* headlines on a white background */ 
+  --headline-color-on-color: 141414; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #141414; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #141414; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #cfcfcf  ;
+  --nav-link-color: #141414;
+  --nav-background-color: #cfcfcf;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #210B2C;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+/*I added just the following to make the h1 more distinct from the others.*/
+h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+  font-size: 1.2em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: #141414;
+  color: var(--paragraph-color-on-color);
+}
+.secondary {
+  background-color: var(--primary-color);
+  color: var(--paragraph-color-on-color); 
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--secondary-color);
+}
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+.sitemap {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+.sitemap > div {
+  text-align: center;
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+#mobile {
+    max-width: 400px;
+}
