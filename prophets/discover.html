@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- SEO Meta Tags -->
+        <title>Olinda Chamber of Commerce - Connecting Olindenses Entrepreneurs</title>
+        <meta name="description" content="Olinda Chamber of Commerce is a hub to enterpreneurs in our city.">
+        <meta name="author" content="Luciano Vilete">
+        
+        <!-- Social Media / Open Graph Meta Tags -->
+        <meta property="og:title" content="Olinda Chamber of Commerce - Connecting Olindenses Entrepreneurs">
+        <meta property="og:description" content="Discover resources, events, and networking opportunities to boost your startup or business in Olinda.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://luciano-a-vilete.github.io/wdd231/chamber/directory.html">
+        <meta property="og:image" content="images/olinda-city.jpg">
+        <!--typography-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="images/olinda-city.jpg" type="image/icon">    
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/components.css">
+        <script src="scripts/get-date.js" defer></script>
+        <script src="scripts/discover.js" defer></script>
+       
+        
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="images/olinda-city.jpg" alt="logo olinda chamber of commerce" loading="lazy">
+            <nav>
+                <button id="myButton">&#9776;</button>
+                <ul class="menuLinks">
+                    <li><a href="index.html" title="home">home</a></li>
+                    <li><a href="directory.html" title="business">directory</a></li>
+                    <li><a href="join.html" title="join">join</a></li>
+                    <li><a href="#" title="about">about</a></li>
+                    <li><a href="discover.html" title="discover">discover</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main id="sidebarAndMain">
+            <section id="sidebar">
+                <h6>Companies we work with</h6>
+                <h5>Welcome Back!</h5>
+                <p id="visit-message"></p>
+                
+                <div id="companiesOnBoard">
+
+                </div>
+                <div class="calendar-section">
+                    <div class="calendar-header">
+                        <button id="prev-month">&#9664;</button>
+                        <span id="month-year"></span>
+                        <button id="next-month">&#9654;</button>
+                    </div>
+                    <div class="calendar">
+                        <!-- Day names -->
+                        <div class="day-names">
+                            <div>Sun</div><div>Mon</div><div>Tue</div>
+                            <div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+                        </div>
+                        <!-- Days will be dynamically populated -->
+                        <div class="days" id="days"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="main" >
+                
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <img id="logo2" src="images/olinda-city.jpg" alt="logo Olinda Chamber of Commerce">
+            <p>Alto da Sé, Olinda</p>
+            <p>Pernambuco, Brazil</p>
+            <p>office@OCofC.com</p>
+            <p>+55 81 99930-0485</p>
+        </div>
+        <div>
+            <p>
+                &copy;<span id="currentyear"></span>
+                - Luciano Vilete - Olinda
+            </p>
+            </section>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</html>

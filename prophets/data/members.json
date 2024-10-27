@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Joseph Smith",
+    "birth": "December 23, 1805",
+    "death": "June 27, 1844",
+    "termStart": "April 6, 1830",
+    "termEnd": "June 27, 1844",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Brigham Young",
+    "birth": "June 1, 1801",
+    "death": "August 29, 1877",
+    "termStart": "June 27, 1844",
+    "termEnd": "August 29, 1877",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "John Taylor",
+    "birth": "November 1, 1808",
+    "death": "July 25, 1887",
+    "termStart": "August 29, 1877",
+    "termEnd": "July 25, 1887",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Wilford Woodruff",
+    "birth": "March 1, 1807",
+    "death": "September 2, 1898",
+    "termStart": "July 25, 1887",
+    "termEnd": "September 2, 1898",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Lorenzo Snow",
+    "birth": "April 3, 1814",
+    "death": "October 10, 1901",
+    "termStart": "September 13, 1898",
+    "termEnd": "October 10, 1901",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Joseph F. Smith",
+    "birth": "November 13, 1838",
+    "death": "November 19, 1918",
+    "termStart": "October 10, 1901",
+    "termEnd": "November 19, 1918",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Heber J. Grant",
+    "birth": "November 22, 1856",
+    "death": "May 14, 1945",
+    "termStart": "November 23, 1918",
+    "termEnd": "May 14, 1945",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "George Albert Smith",
+    "birth": "June 4, 1870",
+    "death": "April 4, 1951",
+    "termStart": "May 14, 1945",
+    "termEnd": "April 4, 1951",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "David O. McKay",
+    "birth": "September 8, 1873",
+    "death": "January 18, 1970",
+    "termStart": "April 9, 1951",
+    "termEnd": "January 18, 1970",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Joseph Fielding Smith",
+    "birth": "July 13, 1876",
+    "death": "July 2, 1972",
+    "termStart": "January 18, 1970",
+    "termEnd": "July 2, 1972",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Harold B. Lee",
+    "birth": "March 28, 1899",
+    "death": "December 26, 1973",
+    "termStart": "July 2, 1972",
+    "termEnd": "December 26, 1973",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Spencer W. Kimball",
+    "birth": "March 28, 1895",
+    "death": "November 5, 1985",
+    "termStart": "December 26, 1973",
+    "termEnd": "November 5, 1985",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Ezra Taft Benson",
+    "birth": "August 4, 1899",
+    "death": "May 30, 1994",
+    "termStart": "November 5, 1985",
+    "termEnd": "May 30, 1994",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Howard W. Hunter",
+    "birth": "November 7, 1907",
+    "death": "March 3, 1995",
+    "termStart": "May 30, 1994",
+    "termEnd": "March 3, 1995",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Gordon B. Hinckley",
+    "birth": "June 23, 1910",
+    "death": "January 27, 2008",
+    "termStart": "March 3, 1995",
+    "termEnd": "January 27, 2008",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Thomas S. Monson",
+    "birth": "August 21, 1927",
+    "death": "January 2, 2018",
+    "termStart": "February 3, 2008",
+    "termEnd": "January 2, 2018",
+    "image": "(link unavailable)"
+  },
+  {
+    "name": "Russell M. Nelson",
+    "birth": "September 9, 1924",
+    "death": "(still living)",
+    "termStart": "January 14, 2018",
+    "termEnd": "(still serving)",
+    "image": "(link unavailable)"
+  }
+]
