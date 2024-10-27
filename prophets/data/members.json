@@ -5,7 +5,7 @@
     "death": "June 27, 1844",
     "termStart": "April 6, 1830",
     "termEnd": "June 27, 1844",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Joseph-Smith.jpg"
   },
   {
     "name": "Brigham Young",
@@ -13,7 +13,7 @@
     "death": "August 29, 1877",
     "termStart": "June 27, 1844",
     "termEnd": "August 29, 1877",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Brigham-Young.jpeg"
   },
   {
     "name": "John Taylor",
@@ -21,7 +21,7 @@
     "death": "July 25, 1887",
     "termStart": "August 29, 1877",
     "termEnd": "July 25, 1887",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\John-Taylor.jpeg"
   },
   {
     "name": "Wilford Woodruff",
@@ -29,7 +29,7 @@
     "death": "September 2, 1898",
     "termStart": "July 25, 1887",
     "termEnd": "September 2, 1898",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\wilford-woodruff.jpg"
   },
   {
     "name": "Lorenzo Snow",
@@ -37,7 +37,7 @@
     "death": "October 10, 1901",
     "termStart": "September 13, 1898",
     "termEnd": "October 10, 1901",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Lorenzo_Snow.jpg"
   },
   {
     "name": "Joseph F. Smith",
@@ -45,7 +45,7 @@
     "death": "November 19, 1918",
     "termStart": "October 10, 1901",
     "termEnd": "November 19, 1918",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Joseph_F_Smith.webp"
   },
   {
     "name": "Heber J. Grant",
@@ -53,7 +53,7 @@
     "death": "May 14, 1945",
     "termStart": "November 23, 1918",
     "termEnd": "May 14, 1945",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Heber_J_Grant.jpg"
   },
   {
     "name": "George Albert Smith",
@@ -61,7 +61,7 @@
     "death": "April 4, 1951",
     "termStart": "May 14, 1945",
     "termEnd": "April 4, 1951",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\george_albert_smith.webp"
   },
   {
     "name": "David O. McKay",
@@ -69,7 +69,7 @@
     "death": "January 18, 1970",
     "termStart": "April 9, 1951",
     "termEnd": "January 18, 1970",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\David_O_McKey.jpeg"
   },
   {
     "name": "Joseph Fielding Smith",
@@ -77,7 +77,7 @@
     "death": "July 2, 1972",
     "termStart": "January 18, 1970",
     "termEnd": "July 2, 1972",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Joseph_Fielding_Smith.jpeg"
   },
   {
     "name": "Harold B. Lee",
@@ -85,7 +85,7 @@
     "death": "December 26, 1973",
     "termStart": "July 2, 1972",
     "termEnd": "December 26, 1973",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Harold_B_Lee.jpg"
   },
   {
     "name": "Spencer W. Kimball",
@@ -93,7 +93,7 @@
     "death": "November 5, 1985",
     "termStart": "December 26, 1973",
     "termEnd": "November 5, 1985",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Spencer_W._Kimball.jpeg"
   },
   {
     "name": "Ezra Taft Benson",
@@ -101,7 +101,7 @@
     "death": "May 30, 1994",
     "termStart": "November 5, 1985",
     "termEnd": "May 30, 1994",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\ezra_taft_benson.jpeg"
   },
   {
     "name": "Howard W. Hunter",
@@ -109,7 +109,7 @@
     "death": "March 3, 1995",
     "termStart": "May 30, 1994",
     "termEnd": "March 3, 1995",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\howard_w_hunter.jpeg"
   },
   {
     "name": "Gordon B. Hinckley",
@@ -117,7 +117,7 @@
     "death": "January 27, 2008",
     "termStart": "March 3, 1995",
     "termEnd": "January 27, 2008",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Gordon_B_Hinckley.jpg"
   },
   {
     "name": "Thomas S. Monson",
@@ -125,7 +125,7 @@
     "death": "January 2, 2018",
     "termStart": "February 3, 2008",
     "termEnd": "January 2, 2018",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\tomas_s_monson.jpg"
   },
   {
     "name": "Russell M. Nelson",
@@ -133,6 +133,6 @@
     "death": "(still living)",
     "termStart": "January 14, 2018",
     "termEnd": "(still serving)",
-    "image": "(link unavailable)"
+    "image": "prophets\\images\\Russel_M_Nelson.webp"
   }
 ]
